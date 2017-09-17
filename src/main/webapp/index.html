@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PERSONS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+
+    <body>
+        <div class="container">           
+            <table class="table table-hover" id="TablePersons">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Firstname</th>
+                        <th>Lastname</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody id="TablePersonsBody">
+                </tbody>
+    
+            </table>
+        </div>
+        <div class="container">
+            <button class="btn btn-info" id="PersonsRefresh" type="button">Person Refresh</button> <br />
+            <input id="PersonID" type="text" placeholder="ID"/><br />
+            <input id="PersonFirstName" type="text" placeholder="First Name"/><br />
+            <input id="PersonLastName" type="text" placeholder="Last Name"/><br />
+            <input id="PersonEmail" type="text" placeholder="Email"/><br />
+
+            <button class="btn btn-success" id="PersonAdd" type="button">Add Person</button> <br />
+            <button class="btn btn-warning" id="PersonEdit" type="button">Edit Person</button> <br />
+            <button class="btn btn-danger" id="PersonDelete" type="button">Delete Person</button> <br />
+        </div>
+
+        <script src="javascript.js"></script>
+    </body>
+</html>
